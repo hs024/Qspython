@@ -1,0 +1,8 @@
+a=int(input("enter n1:"))
+b=int(input("enter n2:"))
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a//b)
+print(a**b)
