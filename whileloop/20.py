@@ -1,25 +1,16 @@
+# by me for only me 
 
-
-
-# wap # wap 
-em="HimAnshu123@gmail.com"
-
-u=[]
-l=[]
-d=[]
-s=[]
+import time 
+a=input("enter")
+s=" "
 i=0
-while i<len(em):
-    if "A"<=em[i]<="Z":
-        u.append(em[i])
-    elif "a"<=em[i]<="z":
-        l.append(em[i])
-    elif "0"<=em[i]<="9":
-        d.append(em[i])
-    else:
-        s.append(em[i])
-    i+=1
-print(u)
-print(l)
-print(d)
+n=len(a)
+for x in a:
+    j=64
+    while s[-1]!=x:
+        time.sleep(0.02)
+        print(s)
+        s=s[:-1]+chr(j)
+        j+=1
+    s+=" "
 print(s)
